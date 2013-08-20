@@ -18,14 +18,28 @@ body {
 	font: 12px Tahoma, sans-serif;
 	}
 
+
 /*helpers*/
+
+a {
+	text-decoration: none;
+	}
+
+a span {
+	border-bottom: solid 1px;
+	}
+
+	a:hover span {
+		border-bottom: none;	
+		}
+
 
 .pseudo-link {
 	border-bottom: dotted 1px #82878d;
 	cursor: pointer;
 	}
 
-	.pseudo-link:hover {
+	a:hover .pseudo-link:hover {
 		border: none;	
 		}
 
@@ -49,7 +63,7 @@ body {
 
 	.layout-inner {
 		padding-top: 8px;
-		margin: 0 29px;
+		margin: 0 30px 0 29px;
 		background: #fff;
 		-webkit-box-shadow: 0 0 51px 0 rgba(101, 127, 163, 0.64);
 		-moz-box-shadow: 0 0 51px 0 rgba(101, 127, 163, 0.64);
@@ -102,7 +116,7 @@ body {
 
 	.auth-bar .login {
 		float: left;
-		margin-left: 35px;
+		margin-left: 33px;
 		font-size: 11px;
 		}
 
@@ -114,7 +128,7 @@ body {
 	}
 
 	.login .link-enter {
-		margin-right: 15px;
+		margin-right: 13px;
 		}
 
 	.login a {
@@ -137,7 +151,7 @@ body {
 	}
 
 .social {
-	margin: 0 11px 0 0;
+	margin: 0 13px 0 0;
 	}
 
 
@@ -157,12 +171,12 @@ body {
 
 	.search input[type="text"]{
 		width: 154px;
-		background: url('i/ico-search.png') 6px 50% no-repeat;
-		padding: 5px 0 4px 25px;
+		background: url('i/ico-search.png') 5px 50% no-repeat;
+		padding: 5px 0 3px 25px;
 		border-radius: 15px 0 0 15px;
 		border: solid 1px #c0c3c6;
 		font-size: 11px;
-		margin: 0 -6px 0 0;
+		margin: 0 -5px 0 0;
 		-webkit-box-shadow: inset 0 3px 5px 0 #eef0f3;
 		-moz-box-shadow: inset 0 3px 5px 0 #eef0f3;
 		box-shadow: inset 0 3px 5px 0 #eef0f3;
@@ -177,7 +191,8 @@ body {
 	.auth-bar .statistics {
 		text-align: center;
 		font-size: 10px;
-		line-height: 38px;
+		line-height: 34px;
+		margin: 0 252px 0 228px;
 		}
 
 		.auth-bar .statistics span {
@@ -292,16 +307,16 @@ body {
 .btn {
 	border-radius: 3px;
 	display: inline-block;
-	line-height: 21px;
-	padding: 0 8px 0 8px;
+	line-height: 22px;
+	padding: 0 6px 0 8px;
 	color: #fff;
 	text-decoration: none;
 	font-size: 11px;
 	}
 
 .search .btn {
-	/*position: relative;*/
-	/*top: -1px;*/
+	position: relative;
+	top: -1px;
 	}
 
 
